@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class guessGame {
     public static void main(String[] args) {
-        
+
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
 
