@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class palindrome {
     public static void main(String[] args) {
-        
+
         Scanner scanner = new Scanner(System.in);
 
         String word;
-        System.out.print("Enter a word if it's a palindrome: ");
+        System.out.print("Enter a word, check if word is a palindrome: ");
         word = scanner.nextLine().trim();
         boolean isPalindome = true;
 
