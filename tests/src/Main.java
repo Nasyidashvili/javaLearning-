@@ -1,23 +1,7 @@
-import org.w3c.dom.css.Rect;
-
-import java.util.Objects;
 import java.util.Random;
-import java.util.Scanner;
 
 public class Main {
-    public static void task1() {
-        Movie movie = new Movie("Chad Stahelski", "John Wick", 120);
-        FictionMovie fictionMovie = new FictionMovie("Joss Wheden", "Avengers", 140, "Heroes");
-
-        movie.getMovieInfo();
-        movie.increaseDuration(40);
-
-        fictionMovie.getMovieInfo();
-
-    }
-
     public static void task2() {
-
         Random random = new Random();
         double x = 10.0;
         double y = 30.0;
@@ -53,8 +37,16 @@ public class Main {
         double average = sum / 8;
 
 
+    }
 
+    public static void task1() {
+        Movie movie = new Movie("John Wick", "Chad Stahelski", 120);
+        FictionMovie fictionMovie = new FictionMovie("Avengers", "Joss Wheden", 140, "Heroes");
 
+        movie.getMovieInfo();
+        movie.increeaseDuration(30);
+
+        fictionMovie.getMovieInfo();
     }
 
     public static void main(String[] args) {
